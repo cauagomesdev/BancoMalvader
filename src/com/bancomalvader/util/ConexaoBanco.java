@@ -8,7 +8,7 @@ public class ConexaoBanco {
    
     private static final String URL = "jdbc:mysql://localhost:3306/bancomalvader?useTimezone=true&serverTimezone=UTC";
     private static final String USUARIO = "root"; // Substitua pelo seu usuário MySQL
-    private static final String SENHA = "Dorminhoco12.";   // Substitua pela sua senha MySQL
+    private static final String SENHA = "senha";   // Substitua pela sua senha MySQL
 
     public static Connection getConnection() throws SQLException {
         try {
